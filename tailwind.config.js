@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
-        "2xl": 24,
+        "2xl": 28,
       },
       colors: {
         light: colors.gray[200],
