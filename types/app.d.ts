@@ -1,0 +1,1 @@
+/// <referebce types ="nativewind/types" />
