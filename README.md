@@ -33,6 +33,6 @@ Start the server
 ```
 
 
-TODO:
-- [] Add some tests.
-- [] Further refactoring.
+### TODO:
+- [ ] Add some tests.
+- [ ] Further refactoring.
