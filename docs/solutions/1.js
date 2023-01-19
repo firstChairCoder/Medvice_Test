@@ -19,8 +19,8 @@ function getHighestFrequencyChar(string: string) {
  * explanation:
  * we have an array for each unique value with the number of times they occur.
  * the reduce function goes through the string, increasing each object value count by 1
- * it checks each unique value and only returns the object(s) that have the highest number of appearances
- * return part (from line 10) simply flattens, then removes our "frequency recorder"
+ * it checks each unique value and only returns the object(s) that has the highest number of appearances
+ * return part (from line 12) simply flattens, then removes our "frequency recorder"
  * this should also work with numbers as strings . e.g "2023" should return ["2"] and multiple words
  * e.g: "fantastic four" should return ["f", "a", "t"]
  */
