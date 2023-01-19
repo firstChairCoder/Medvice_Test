@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { StatusBar } from "expo-status-bar";
 import {
+  Modal,
   ActivityIndicator,
   FlatList,
+  Image,
   SafeAreaView,
   Text,
-  View
+  View,
 } from "react-native";
 
 import useDoctorData from "./src/hooks/useDoctorData";
@@ -18,6 +20,7 @@ const Header = () => (
 );
 
 export default function App() {
+  
   const [doctors, isDoctorsListLoading] = useDoctorData();
 
   if (isDoctorsListLoading) {
@@ -44,7 +47,7 @@ export default function App() {
         windowSize={11}
         initialNumToRender={8}
         renderItem={({
-          item: { email, fullname, phone, gender, clinic, photo, id }
+          item: { email, fullname, phone, gender, clinic, photo, id },
         }) => {
           return (
             <DoctorCard
@@ -54,6 +57,8 @@ export default function App() {
           );
         }}
       />
+
+      
       <StatusBar style="dark" />
     </SafeAreaView>
   );

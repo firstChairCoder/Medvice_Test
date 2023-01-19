@@ -9,3 +9,9 @@ interface IDoctor {
   photo: string;
   id?: string;
 }
+
+interface CustomModalProps extends IDoctor {
+  showModal: any;
+  setShowModal: any;
+  style: StyleProp;
+}

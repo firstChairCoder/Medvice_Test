@@ -13,6 +13,7 @@ module.exports = {
         dark: colors.black,
         green_50: "#6EE7B7",
         red_50: "#FDA4AF",
+        trout: "rgba(80,91,97,0.25)"
       },
     },
   },
